@@ -22,6 +22,12 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 export default function IndexPage() {
   return (
     <div className="container relative pb-10">
+      <div className="flex w-full items-center justify-between">
+      <Avatar>
+      <AvatarImage src="https://github.com/brcelso.png" />
+      <AvatarFallback>CN</AvatarFallback>
+      </Avatar>
+      </div>
       <StyleSwitcher />
       <PageHeader>
         <PageHeaderHeading>Welcome to the  New Age.</PageHeaderHeading>
@@ -32,10 +38,6 @@ export default function IndexPage() {
       </PageHeader>
       <section className="pb-8 md:pb-10">
         <div className="flex w-full items-center justify-between">
-        <Avatar>
-      <AvatarImage src="https://github.com/brcelso.png" />
-      <AvatarFallback>CN</AvatarFallback>
-      </Avatar>
           <div className="flex space-x-4">
             <Link href="/docs" className={cn(buttonVariants({ size: "lg" }))}>
               Get Started

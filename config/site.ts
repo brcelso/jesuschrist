@@ -1,7 +1,7 @@
 export const siteConfig = {
   name: "brcelso",
   url: "https://celso.vercel.app",
-  ogImage: "https://ui.shadcn.com/og.jpg",
+  ogImage: "https://github.com/brcelso.png",
   description:
     "welcome to the New Age.",
   links: {
