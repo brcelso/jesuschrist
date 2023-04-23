@@ -1,12 +1,16 @@
 export const siteConfig = {
-  name: "shadcn/ui",
-  url: "https://ui.shadcn.com",
+  name: "brcelso",
+  url: "https://celso.vercel.app",
   ogImage: "https://ui.shadcn.com/og.jpg",
   description:
-    "Beautifully designed components built with Radix UI and Tailwind CSS.",
+    "welcome to the New Age.",
   links: {
-    twitter: "https://twitter.com/shadcn",
-    github: "https://github.com/shadcn/ui",
+    twitter: "https://twitter.com/juca0514",
+    github: "https://github.com/brcelso/celso-template",
+    docs: "https://ui.shadcn.com",
+    instagram: "https://instagram.com/celsosilvabr",
+    vercel: "https://vercel.com/brcelso",
+    whatsapp: "https://wa.me/5511972509876"
   },
 }
 

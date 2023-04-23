@@ -22,10 +22,10 @@ export default function IndexPage() {
     <div className="container relative pb-10">
       <StyleSwitcher />
       <PageHeader>
-        <PageHeaderHeading>Build your component library.</PageHeaderHeading>
+        <PageHeaderHeading>Welcome to the New Age. Enjoy it.</PageHeaderHeading>
         <PageHeaderDescription>
-          Beautifully designed components that you can copy and paste into your
-          apps. Accessible. Customizable. Open Source.
+          This is my page.
+          Just Code.
         </PageHeaderDescription>
       </PageHeader>
       <section className="pb-8 md:pb-10">
@@ -45,6 +45,54 @@ export default function IndexPage() {
             >
               <Icons.gitHub className="mr-2 h-4 w-4" />
               GitHub
+            </Link>
+            <Link
+              target="_blank"
+              rel="noreferrer"
+              href={siteConfig.links.vercel}
+              className={cn(
+                buttonVariants({ variant: "outline", size: "lg" }),
+                "pl-6"
+              )}
+            >
+              <Icons.gitHub className="mr-2 h-4 w-4" />
+              Vercel
+            </Link>
+            <Link
+              target="_blank"
+              rel="noreferrer"
+              href={siteConfig.links.twitter}
+              className={cn(
+                buttonVariants({ variant: "outline", size: "lg" }),
+                "pl-6"
+              )}
+            >
+              <Icons.gitHub className="mr-2 h-4 w-4" />
+              Twitter
+            </Link>
+            <Link
+              target="_blank"
+              rel="noreferrer"
+              href={siteConfig.links.whatsapp}
+              className={cn(
+                buttonVariants({ variant: "outline", size: "lg" }),
+                "pl-6"
+              )}
+            >
+              <Icons.gitHub className="mr-2 h-4 w-4" />
+              WhatsApp
+            </Link>
+            <Link
+              target="_blank"
+              rel="noreferrer"
+              href={siteConfig.links.instagram}
+              className={cn(
+                buttonVariants({ variant: "outline", size: "lg" }),
+                "pl-6"
+              )}
+            >
+              <Icons.gitHub className="mr-2 h-4 w-4" />
+              Instagram
             </Link>
           </div>
         </div>
