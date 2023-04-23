@@ -22,7 +22,7 @@ export default function IndexPage() {
     <div className="container relative pb-10">
       <StyleSwitcher />
       <PageHeader>
-        <PageHeaderHeading>Welcome to the New Age.</PageHeaderHeading>
+        <PageHeaderHeading>Welcome to the  New Age.</PageHeaderHeading>
         <PageHeaderDescription>
           This is my page.
           Just Code.
