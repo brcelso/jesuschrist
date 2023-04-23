@@ -67,7 +67,7 @@ export default function IndexPage() {
                 "pl-6"
               )}
             >
-              <Icons.gitHub className="mr-2 h-4 w-4" />
+              <Icons.twitter className="mr-2 h-4 w-4" />
               Twitter
             </Link>
             <Link
@@ -91,7 +91,7 @@ export default function IndexPage() {
                 "pl-6"
               )}
             >
-              <Icons.gitHub className="mr-2 h-4 w-4" />
+              <Icons.instagram className="mr-2 h-4 w-4" />
               Instagram
             </Link>
           </div>
