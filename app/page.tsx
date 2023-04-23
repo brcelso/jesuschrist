@@ -55,7 +55,7 @@ export default function IndexPage() {
                 "pl-6"
               )}
             >
-              <Icons.gitHub className="mr-2 h-4 w-4" />
+              <Icons.vercel className="mr-2 h-4 w-4" />
               Vercel
             </Link>
             <Link
@@ -79,7 +79,7 @@ export default function IndexPage() {
                 "pl-6"
               )}
             >
-              <Icons.gitHub className="mr-2 h-4 w-4" />
+              <Icons.whatsapp className="mr-2 h-4 w-4" />
               WhatsApp
             </Link>
             <Link
